@@ -1,7 +1,5 @@
 package Empresa;
 
-import Git.Region;
-import Git.Usuario;
 
 public class Main {
 
@@ -34,5 +32,4 @@ class Empresa {
 		return "Empresa ( " + getUsuario() + ", " + getRegion() + " )";
 	}
 	
-
 }

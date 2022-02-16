@@ -8,59 +8,24 @@ public class Main {
 
 	}
 
+
 }
-class Usuario {
+class Region{
 
-	private String apellido;
-	private String nombre;
-	
-	
-	public Usuario(String apellido, String nombre) {
-		this.apellido = apellido;
-        this.nombre = nombre;
-	}
+	private String localidad;
+	public Region(String localidad){
+	this.localidad = localidad;
 
-	public String getApellido() {
-		return apellido;
 	}
-	public String getNombre() {
-		return nombre;
+	public String getLocalidad() {
+		return localidad;
 	}
-
-	
 	@Override
 	public String toString() {
-		return "Usuario( " + getApellido() + ", " + getNombre() + " )";
+		return "Region [localidad=" + localidad + "]";
 	}
 	
-
-}
-
-
-class Empresa {
-
-	private Usuario usuario;
-	private Region region;
-	
-	
-	public Empresa(Usuario usuario, Region region) {
-		this.usuario = usuario;
-        this.region = region;
-	}
-
-	public Usuario getUsuario() {
-		return usuario;
-	}
-	public Region getRegion() {
-		return region;
-	}
-
-	@Override
-	public String toString() {
-		return "Empresa ( " + getUsuario() + ", " + getRegion() + " )";
-	}
 	
 }
 
 
-// si si
